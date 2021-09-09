@@ -1,0 +1,112 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1025px){
+    .container {
+         margin-top: 20px;
+         margin-bottom: 20px;
+    }
+ }
+
+.containerFree {
+    width: 100%;
+}
+
+.btn-free {
+    width: 100%;
+    height: 44px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    background-color:#34ad62 ;
+}
+
+.btn-free:hover{
+    background-color:#45cc79 ;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.inputDados::placeholder {
+    color: #BCBCBC;
+}
+
+.buttonLogin {
+    margin-bottom: 16px;
+    width: 100%;
+    height: 42px;
+    background-color: #5061FC;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    border: none;
+    border-radius: 4px;
+    color: white !important;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.buttonLogin:hover {
+    background-color: #6674F4;
+    transition: background-color 0.3s ease-in;
+}
+
+#logo {
+    margin-top: 18px;
+    margin-bottom: 22px;
+    text-align: center;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.inputDados{
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    border: 2px solid white;
+    max-width: 268px;
+    width: 100%;
+    height: 34px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    appearance: none;
+    outline: none;
+    padding: 0 16px;
+}
+
+.form{
+    max-width: 300px;
+    width: 100%;
+}
+
+.groupInput {
+    margin-top: 16px;
+    font-size: 14px !important;
+    color: white;
+}
+
+.error {
+    margin-bottom: 16px;
+    margin-top: 14px;
+    font-size: 12px;
+    color: red;
+
+}
+
+input:focus {
+    border: #5061fc 2px solid;
+}
+
+.contato{
+    background-color: #E0E3FF;
+    color: #5061FC;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
