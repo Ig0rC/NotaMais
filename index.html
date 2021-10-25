@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./background.css">
-    <link rel="stylesheet" href="./login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./background.css" />
     <title>Nota Mais</title>
-</head>
-<body>
-    <div class="bg-image">
-        <div class="container">
-            <div style="height: 100%; display: flex; align-items: center; justify-content: center;">
-                <div style="flex: 1">
-                    <div class="bg-white">
-                        <div class="logoContainer">
-                            <img 
-                            id="logo"
-                            src="./LogoTelaLoginNotaMais 1.png" 
-                            alt="" srcset=""
-                            >
-                        </div>
-            
-                        <form class="form" action="">
-                            <div class="contato">
-                                <p>
-                                    (61) 3686-2336
-                                </p>
-                            </div>
-                            <div class="groupInput">
-                                <p>Código da empresa</p>
-                                <input placeholder="código da empresa" class="inputDados" type="number">
-                            </div>
-                            <div class="groupInput">
-                                <p>Usuário</p>
-                                <input placeholder="usuário" class="inputDados" type="text">
-                            </div>
-                            <div class="groupInput">
-                                <p>Senha</p>
-                                <input placeholder="senha" class="inputDados" type="password">
-                            </div>
-        
-                            <div class="error">
-                                <p style="background-color: #E0E3FF; width: 110px; padding: 5px 0px; border-radius: 5px; text-align: center;">Dados inválidos!</p>
-                            </div>
-            
-                            <button class="buttonLogin">
-                                <p>Entrar</p>
-                            </button>
-                        </form>
-            
-                        <div class="containerFree">
-                            <button class="btn-free">
-                                <p>Cadastre-se grátis!</p>
-                            </button>
-                        </div>
-                    </div>    
-                </div>  
+  </head>
+  <body>
+    <div class="container">
+      <div style="flex: 1">
+        <div class="container-login">
+          <div>
+            <img class="logo" src="./images/NotaMaisLogo.png" alt="Nota Mais Emissão de Notas Fiscais" />
+          </div>
+
+          <form class="form" action="">
+            <div class="contact">
+              <p>(61) 3686-2336</p>
             </div>
-          
+            <div class="groupInput">
+              <p>Código da empresa</p>
+              <input
+                placeholder="código da empresa"
+                class="inputData"
+                type="number"
+              />
+            </div>
+            <div class="groupInput">
+              <p>Usuário</p>
+              <input placeholder="usuário" class="inputData" type="text" />
+            </div>
+            <div class="groupInput">
+              <p>Senha</p>
+              <input placeholder="senha" class="inputData" type="password" />
+            </div>
+
+            <div class="error-container">
+              <p class="error-message">Dados inválidos!</p>
+            </div>
+            <button class="buttonLogin">
+              <p>Entrar</p>
+            </button>
+          </form>
+
+          <div class="utils">
+            <a
+              href="https://download.anydesk.com/AnyDesk.exe?_ga=2.220856472.16291983.1634830027-1180192309.1634830027"
+              class="btn-utils anydesk"
+            >
+              AnyDesk
+            </a>
+            <a
+              href="https://softvendas.com.br/pedido-certificado-digital/"
+              class="btn-utils certificado"
+              target="_blank"
+            >
+              Adquirir Cert. Digital
+            </a>
+          </div>
+          <div class="containerFree">
+            <a    target="_blank" href="https://sistema.softvendas.com.br/fat_cad_empresa_sistema_demo_control/?var_id_empresa_revenda=20000" class="btn-free">
+              <p>Cadastre-se grátis!</p>
+            </a>
+          </div>
         </div>
-    </div> 
-</body>
+      </div>
+    </div>
+  </body>
 </html>
