@@ -50,14 +50,14 @@ input[type=number]::-webkit-inner-spin-button {
 
 
 .modal {
-    padding: 100px 0 0 0 !important;
+    padding: 50px 0 0 0 !important;
 }
 
 
 
 @media (max-height: 635px) {
     .modal {
-        padding: 10px 0 0 0 !important;
+        padding: 5px 0 0 0 !important;
     }
 }
 
