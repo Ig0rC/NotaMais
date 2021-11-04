@@ -47,6 +47,20 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     
 }
+
+
+.modal {
+    padding: 100px 0 0 0 !important;
+}
+
+
+
+@media (max-height: 635px) {
+    .modal {
+        padding: 10px 0 0 0 !important;
+    }
+}
+
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
