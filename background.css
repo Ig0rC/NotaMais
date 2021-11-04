@@ -82,13 +82,10 @@ button, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(100px);
     flex-direction: column;
 }
 
 .logo {
-    margin-top: 18px;
-    margin-bottom: 22px;
     text-align: center;
     max-height: 200px;
     max-width: 200px;
@@ -261,6 +258,17 @@ input:focus {
     }
 }
 
-
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .container-login {
+        backdrop-filter: blur(100px);
+    }
+  }
+  
+  /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .container-login {
+        background-color: rgba(77, 75, 71, 0.91);
+    }
+}
 
 
